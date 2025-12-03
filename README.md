@@ -8,7 +8,11 @@ untuk memperbaharui sistem arch-linux sekaligus meng-install docker untuk e-prin
 sudo pacman -S docker-compose
 ```
 plugin untuk menjalankan docker
-
+```
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+untuk mengaktifkan docker
 lalu buka https://github.com/DTLudlow/eprints-3.4.4-docker
 
 Dan clone repository tersebut dengan 

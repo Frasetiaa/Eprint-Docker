@@ -1,18 +1,17 @@
-install arch Linux
-
+# Install Eprint docker
 ```
 sudo pacman -Syu docker
 ```
-untuk memperbaharui sistem arch-linux sekaligus meng-install docker untuk e-prints
+### untuk memperbaharui sistem arch-linux sekaligus meng-install docker untuk e-prints
 ```
 sudo pacman -S docker-compose
 ```
-plugin untuk menjalankan docker
+### plugin untuk menjalankan docker
 ```
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
-untuk mengaktifkan docker
+### untuk mengaktifkan docker
 lalu buka https://github.com/DTLudlow/eprints-3.4.4-docker
 
 Dan clone repository tersebut dengan 

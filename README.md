@@ -12,8 +12,8 @@ sudo pacman -S docker-compose
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
-#### 4. Dan clone repository tersebut dengan mengklik tombol hijau yang bertuliskan "code" lalu copy yang (HTTPS) setelah itu masuk kedalam terminal lalu ketik
-lalu buka https://github.com/DTLudlow/eprints-3.4.4-docker
+#### 4. lalu buka https://github.com/DTLudlow/eprints-3.4.4-docker
+Dan clone repository tersebut dengan mengklik tombol hijau yang bertuliskan "code" lalu copy yang (HTTPS) setelah itu masuk kedalam terminal
 ```
 git clone https://github.com/DTLudlow/eprints-3.4.4-docker /eprints
 ```
